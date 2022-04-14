@@ -1,3 +1,7 @@
+# Minipupper环境搭建之使用docker
+# 主要参考https://mangdang-minipupperdocs.readthedocs-hosted.com/en/latest/guide/SLAM.html
+# 测试环境为mbp-2021-apple chip m1 pro
+# 更多信息可参考https://zhuanlan.zhihu.com/p/497388660/edit
 
 # ROS Desktop on Docker
 ![Screenshot](/docs/screenshot.png)
@@ -13,7 +17,7 @@
    docker-compose up
    ```
 5. Open webbrowser with URL localhost:6080
-6. assign && source bash
+6. Assign && source bash
    ```
    export ROS_MASTER_URI=http://172.17.0.2:11311
    export ROS_HOSTNAME=172.17.0.2 #这个是docker container's ip
