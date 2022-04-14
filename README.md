@@ -13,7 +13,15 @@
    docker-compose up
    ```
 5. Open webbrowser with URL localhost:6080
-
+6. assign && source bash
+   ```
+   export ROS_MASTER_URI=http://172.17.0.2:11311
+   export ROS_HOSTNAME=172.17.0.2
+   source /root/carto_ws/install_isolated/setup.bash
+   source /root/mnpp_ws/devel/setup.bash
+   export QT_DEBUG_PLUGINS=1
+   export DISPLAY=:1
+   ```
 # Reference
 - [Ubuntu VNC](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
 
