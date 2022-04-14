@@ -13,7 +13,7 @@
    docker-compose up
    ```
 5. Open webbrowser with URL localhost:6080
-6. assign && source bash
+6. Assign && source bash
    ```
    export ROS_MASTER_URI=http://172.17.0.2:11311
    export ROS_HOSTNAME=172.17.0.2
