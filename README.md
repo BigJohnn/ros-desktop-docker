@@ -1,7 +1,12 @@
-# Minipupper环境搭建之使用docker
-# 主要参考https://mangdang-minipupperdocs.readthedocs-hosted.com/en/latest/guide/SLAM.html
-# 测试环境为mbp-2021-apple chip m1 pro
-# 更多信息可参考https://zhuanlan.zhihu.com/p/497388660/edit
+# OSX Minipupper环境搭建之使用docker 
+> 主要参考https://mangdang-minipupperdocs.readthedocs-hosted.com/en/latest/guide/SLAM.html
+> 
+> 测试环境为mbp-2021-apple chip m1 pro
+> 
+> 更多信息可参考https://zhuanlan.zhihu.com/p/497388660/edit
+
+***
+---
 
 # ROS Desktop on Docker
 ![Screenshot](/docs/screenshot.png)
