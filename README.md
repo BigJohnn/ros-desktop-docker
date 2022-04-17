@@ -3,7 +3,7 @@
 > 
 > 测试环境为mbp-2021-apple chip m1 pro
 > 
-> 更多信息可参考https://zhuanlan.zhihu.com/p/497388660/edit
+> 更多信息可参考https://zhuanlan.zhihu.com/p/497388660?
 
 ***
 ---
