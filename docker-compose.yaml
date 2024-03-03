@@ -1,16 +1,15 @@
-version: '2'
+version: '1'
 services:
-  ros2_ws1:
-    image: syanyong/ros-desktop:noetic
+  ros_ws1:
+    image: hph/ros-desktop:melodic
     # cpus: 1.0
     volumes: 
-      - ./ros_ws:/root/ros_ws
-      - ./.bashrc:/root/.bashrc
+      - ./.bashrc:/home/ubuntu/.bashrc
+      - /Users/hph/Codes/VINS-Fusion:/home/ubuntu/ros_ws/src/VINS-Fusion
+      - /Users/hph/Data:/var/data
     ports:
       -  "6080:80"
       -  "2222:22"
-    # devices:
-    #   - "/dev/ttyUSB0:/dev/ttyUSB0"
     tty: true
 
     

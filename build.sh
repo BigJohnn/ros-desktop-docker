@@ -1,2 +1,2 @@
 #!/bin/sh
-docker build . -t syanyong/ros-desktop:noetic
+docker build . -t hph/ros-desktop:melodic

@@ -1,12 +1,4 @@
-# OSX Minipupper环境搭建之使用docker 
-> 主要参考https://mangdang-minipupperdocs.readthedocs-hosted.com/en/latest/guide/SLAM.html
-> 
-> 测试环境为mbp-2021-apple chip m1 pro
-> 
-> 更多信息可参考https://zhuanlan.zhihu.com/p/497388660?
-
-***
----
+这个分支可用于快速构建VINSFUSION所需环境。
 
 # ROS Desktop on Docker
 ![Screenshot](/docs/screenshot.png)
@@ -22,15 +14,7 @@
    docker-compose up
    ```
 5. Open webbrowser with URL localhost:6080
-6. Assign && source bash
-   ```
-   export ROS_MASTER_URI=http://172.17.0.2:11311
-   export ROS_HOSTNAME=172.17.0.2 #这个是docker container's ip
-   source /root/carto_ws/install_isolated/setup.bash
-   source /root/mnpp_ws/devel/setup.bash
-   export QT_DEBUG_PLUGINS=1
-   export DISPLAY=:1 #使用了VNC， host机器上使用http://localhost:6080/访问
-   ```
+
 # Reference
 - [Ubuntu VNC](https://github.com/fcwu/docker-ubuntu-vnc-desktop)
 
